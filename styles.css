@@ -1,0 +1,46 @@
+/*Start of the CSS Stylesheet*/
+body{
+    margin: 0px;
+}
+
+nav{
+    padding: 10px;
+    background-color: #e2e2e2;
+    height: 50px;
+
+}
+
+#navMenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a{
+    flex-direction: row;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+nav a:hover{
+    transition: .25s;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#logo{
+    align-self: flex-start;
+}
+
+h1{
+    font-family:'Didot', serif;
+    color: #e2e2e2;
+    text-transform: capitalize;
+    font-size: 10em;
+    text-align: center;
+}
